@@ -67,11 +67,10 @@ export const Home = () => {
 
            <C.Portfolio>
                 <h1>Meu Portifólio</h1>
-                <div>    
+                <div className='area-portifolios'>    
                     {Images.map((item, index)=>(
                         <PortfolioItem key={index} data={item}/>    
                     ))}
-        
                 </div>
                 <div className='listProjetos'>
                     <button>Ver Todos Projetos</button>

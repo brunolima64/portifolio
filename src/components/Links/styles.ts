@@ -19,4 +19,13 @@ export const Container = styled.div`
             opacity: .7;
         }
     }
+
+    @media (max-width: 484px) {
+        .icon {
+            width: 35px;
+            height: 35px;
+            margin-left: 5px;
+            padding: 3px;
+        }
+    }
 `;
